@@ -328,6 +328,11 @@ static NSMutableArray *allInstances;
     }];
 }
 
+- (void)doRightMenuAction
+{
+    NSLog(@"DO SOME ACTION");
+}
+
 - (void)openRightMenu
 {
     [self openRightMenuAnimated:YES];

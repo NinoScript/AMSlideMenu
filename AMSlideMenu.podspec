@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AMSlideMenu"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Ease slide menu, with high customization for ios"
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/arturdev/AMSlideMenu.git", :tag => s.version }
