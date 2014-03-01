@@ -51,8 +51,7 @@
         navItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
     }
     
-#warning SHIT - I should not modify the pod.
-    //if (mainVC.rightMenu)
+    // if (mainVC.rightMenu)
     {
         UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [mainVC configureRightMenuButton:rightBtn];

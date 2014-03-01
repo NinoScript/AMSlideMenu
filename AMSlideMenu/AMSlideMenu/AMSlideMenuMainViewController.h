@@ -170,6 +170,7 @@ typedef enum {
  * Opens Right menu by animation
  */
 - (void)openRightMenu;
+- (void)doRightMenuAction;
 
 /**
  * Opens Right menu
