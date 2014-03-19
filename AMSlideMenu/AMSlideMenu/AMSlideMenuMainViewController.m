@@ -525,9 +525,9 @@ static NSMutableArray *allInstances;
         // Configuring for iOS 6.x
         if ([[[UIDevice currentDevice] systemVersion] floatValue] < 7.0)
         {
-            CGRect frame = self.currentActiveNVC.view.frame;
-            frame.origin.y = -20;
-            self.currentActiveNVC.view.frame = frame;
+//            CGRect frame = self.currentActiveNVC.view.frame;
+//            frame.origin.y = -20;
+//            self.currentActiveNVC.view.frame = frame;
         }
         else
         {
